@@ -1,6 +1,5 @@
-x = "Вячеслав"
-name: str = input("Введите своё имя:")
-if name == x:
-    print("Привет,", name ,"!")
+number = input("Ввелите число ")
+if int(number) > 7:
+    print("Привет!")
 else:
-    print("Нет такого имени")
+    pass
